@@ -1,0 +1,266 @@
+.section{
+    margin: 0;
+    padding: 0;
+    background-image: url(../../images/backround.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 170vh;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards__h1{
+    color: rgb(255, 140, 24);
+    font-family: Prompt;
+    font-weight: 400;
+}
+.card__ul{
+    width: 63%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards__ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.ul__li__a{
+    color: rgb(0, 0, 0);
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.button{
+    border-radius: 2px;
+    border: none;
+    padding: 5px;
+    height: 30px;
+    background-color: #656293;
+    color: white;
+    font-family: poppins;
+}
+.hamburger{
+    color: #010101;
+    width: 30px;
+    height: 30px;
+   display: none;
+ }
+ .hero{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 100px;
+ }
+ .hero__left{
+   width: 45%;
+ }
+ .cards_h1{
+   color: #656293;
+   font-family: poppins;
+   font-size: 48px;
+   font-weight: 700;
+   text-decoration: none;
+ }
+ .cards_p{
+   color: rgb(0, 0, 0);
+   font-family: poppins;
+   font-size: 15px;
+   font-weight: 500;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+ }
+ .icons{
+   width: 16px;
+   height: 16px;
+ }
+ .images{
+  width: 360px;
+  height: 451px;
+ }
+ .cards__form{
+   margin: 0 auto;
+   width: 800px;
+   padding: 20px;
+ }
+ .cards__form__h1{
+   color: #000000;
+   font-family: poppins;
+   font-size: 43px;
+   font-weight: 500;
+   text-decoration: none;
+   text-align: center;
+ }
+ .input{
+   width: 66%;
+   height: 29px;
+   font-family: poppins;
+   display: block;
+   color: #656293;
+   margin: 0 auto;
+   margin-top: 10px;
+   padding: 0px 0px 0px 10px;
+   background-color: transparent;
+ }
+ .cards__button{
+   text-align: center;
+ }
+ .card__form__button{
+   margin-top: 30px;
+   border-radius: 2px;
+   width: 18%;
+   border: none;
+   padding: 5px;
+   height: 40px;
+   background-color: #656293;
+   font-size: 20px;
+   color: white;
+   font-family: poppins;
+ }
+ 
+@media only screen and (max-width: 1278px) {
+    .container{
+       width: 100%;
+       max-width: 95%;
+       margin: 0px auto;
+       padding: 0px 10px;
+    }
+ }
+ @media only screen and (max-width: 1200px) {
+    .card__ul{
+       width: 70%;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+    }
+ }
+ @media only screen and (max-width: 1180px) {
+  .card__ul{
+     width: 80%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+  }
+}
+ @media only screen and (max-width: 980px) {
+    .card__ul{
+        display: none;
+     }
+    .cards__h1{
+       width: 25%;
+    }
+    .button{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+     }
+ }
+ @media only screen and (max-width: 780px) {
+   .section{
+      height: 90vh;
+  }
+    .cards__h1{
+       width: 25%;
+    }
+    .hamburger{
+       display: block;
+    }
+    .hero{
+      display: none;
+    }
+    .cards__form{
+      width: 600px;
+    }
+ }
+ @media only screen and (max-width: 600px) {
+   .section{
+      height: 80vh;
+  }
+    .cards__h1{
+       width: 35%;
+    }
+    .hamburger{
+       display: block;
+    }
+    .cards__form{
+      width: 450px;
+    }
+ }
+ @media only screen and (max-width: 460px) {
+    .cards__h1{
+       width: 45%;
+    }
+    .hamburger{
+       display: block;
+    }
+    .cards__form{
+      width: 350px;
+    }
+    .card__form__button{
+      width: 40%;
+    }
+ }
+ @media only screen and (max-width: 431px) {
+  .section{
+     height: 60vh;
+ }
+}
+@media only screen and (max-width: 428px) {
+  .section{
+     height: 80vh;
+ }
+}
+@media only screen and (max-width: 413px) {
+  .section{
+     height: 60vh;
+ }
+}
+@media only screen and (max-width: 408px) {
+  .section{
+     height: 80vh;
+ }
+}
+@media only screen and (max-width: 393px) {
+  .section{
+     height: 70vh;
+ }
+  .cards__form{
+    width: 300px;
+  }
+}
+ @media only screen and (max-width: 386px) {
+   .section{
+      height: 90vh;
+  }
+   .cards__form{
+     width: 300px;
+   }
+}
+@media only screen and (max-width: 330px) {
+   .cards__form{
+     width: 250px;
+   }
+}
+@media only screen and (max-width: 280px) {
+  .section{
+    height: 100vh;
+}
+   .cards__form{
+     width: 200px;
+   }
+}

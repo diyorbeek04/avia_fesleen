@@ -1,0 +1,122 @@
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.cards {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards__h1 {
+    color: rgb(0, 0, 0);
+    font-family: poppins;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+}
+
+.cards__left {
+    width: 32%;
+}
+.cards__main {
+    width: 32%;
+}
+.cards__right {
+    width: 32%;
+}
+.cards__top {
+    width: 70%;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.cards__btm {
+    width: 70%;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.cards__h2{
+    color: rgb(0, 0, 0);
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 18px;
+}
+.cards__p{
+    color: rgb(61, 61, 61);
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+}
+.Images{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+@media only screen and (max-width: 880px) {
+    .cards__top {
+        height: 250px;
+    }
+    
+    .cards__btm {
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .cards__left{
+        width: 45%;
+    }
+    .cards__right{
+        width: 45%;
+    }
+    .cards__top {
+        height: 250px;
+    }
+    .cards__main{
+        display: none;
+    }
+    .cards__btm {
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .cards{
+        display: block;
+    }
+    .cards__left{
+        width: 100%;
+    }
+    .cards__right{
+        width: 100%;
+    }
+    .cards__top {
+        margin-top: 30px;
+        height: 250px;
+        width: 90%;
+    }
+    .cards__btm {
+        width: 90%;
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .cards__h1{
+        margin: 0px;
+        padding: 0px;
+        font-size: 20px;
+    }
+}
